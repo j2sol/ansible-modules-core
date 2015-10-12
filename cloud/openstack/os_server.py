@@ -461,7 +461,7 @@ def main():
         flavor_include                  = dict(default=None),
         key_name                        = dict(default=None),
         security_groups                 = dict(default=['default'], type='list'),
-        nics                            = dict(default=[], type='list'),
+        nics                            = dict(default=None),
         meta                            = dict(default=None),
         userdata                        = dict(default=None),
         config_drive                    = dict(default=False, type='bool'),
