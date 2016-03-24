@@ -268,9 +268,7 @@ def main():
                                         gateway_ip=gateway_ip,
                                         dns_nameservers=dns,
                                         allocation_pools=pool,
-                                        host_routes=host_routes,
-                                        ipv6_ra_mode=ipv6_ra_mode,
-                                        ipv6_address_mode=ipv6_a_mode)
+                                        host_routes=host_routes)
                     changed = True
                 else:
                     changed = False
